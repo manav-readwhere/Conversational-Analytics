@@ -1,0 +1,27 @@
+{
+  "name": "conversational-analytics-backend",
+  "version": "1.0.0",
+  "description": "Backend API for conversational analytics with BigQuery and Gemini",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "bigquery",
+    "gemini",
+    "analytics",
+    "chat"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.3.0",
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2"
+  }
+}
+
